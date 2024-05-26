@@ -443,7 +443,7 @@ class DOSPlot:
             self._show_fermi_level()
         if self.show_grid_lines and self.main:
             self.ax.grid(
-                b=self.show_grid_lines,
+                visible=self.show_grid_lines,
                 which="major",
                 axis=self.grid_lines_axes,
                 linestyle=self.grid_linestyle,
